@@ -8,3 +8,12 @@ def salario_bonus(bonus):
 
 
 salario_bonus(500)  # 2500
+
+def salario_bonus_2 (valor_total,bonus):
+    valor_total += bonus
+    return valor_total
+
+
+print(salario_bonus_2(salario, 320))
+
+print(salario)
