@@ -10,3 +10,8 @@ for carro in carros:
 
 for indice, carro in enumerate(carros):
     print(f"{indice}: {carro}")
+
+
+
+teste = ("gol") 
+print(isinstance(teste, tuple))
